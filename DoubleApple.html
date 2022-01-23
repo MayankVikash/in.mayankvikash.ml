@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page - FreeCodeCamp Project | Mayank Vikash</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            background: #00001d;
+            color: #e4e4e4;
+        }
+        
+        nav {
+            font-size: 0.5rem;
+            /* display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            position: relative;
+            overflow: hidden; */
+            overflow: hidden;
+            background-color: rgb(0, 0, 26);
+        }
+        
+        nav a {
+            /* float: left;
+            color: #e4e4e4;
+            text-decoration: none;
+            padding: 14px 16px; */
+            float: right;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 10px 14px;
+            text-decoration: none;
+            font-size: 17px;
+            position: relative;
+        }
+        
+        li {
+            list-style: none;
+        }
+        
+        .logo {
+            position: absolute;
+            align-items: center;
+            display: grid;
+            justify-content: center;
+        }
+        
+        .slogan {
+            font-size: 14px;
+        }
+        
+        .title {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        
+        .introducing {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        
+        .product-image {
+            position: relative;
+            background: #05001d;
+            width: 100%;
+            height: 100vh;
+        }
+        
+        .phone {
+            position: relative;
+            height: 350px;
+            width: 534px;
+            display: flex;
+            justify-content: center;
+            margin: auto;
+        }
+        
+        .details {
+            position: relative;
+            font-size: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        
+        @media (max-width: 600px) {
+            .slogan {
+                font-size: 6px;
+                display: flex;
+                justify-content: center;
+            }
+            .logo {
+                font-size: 9px;
+                align-items: center;
+            }
+            nav a {
+                font-size: 9px;
+            }
+            .phone {
+                height: 150px;
+                width: 230px;
+            }
+            .details {
+                position: relative;
+                font-size: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">
+            <h1 class="title">Double Apple</h1>
+
+            <p class="slogan">Sell your Kidney, buy our products.</p>
+        </div>
+        <ul>
+
+            <li>
+                <a href="#features">
+                    <h4>Features</h4>
+                </a>
+            </li>
+            <li>
+                <a href="#tutorial">
+                    <h4>How it Works</h4>
+                </a>
+            </li>
+            <li>
+                <a href="#pricing">
+                    <h4>Pricing</h4>
+                </a>
+            </li>
+
+        </ul>
+
+    </nav>
+    <div class="content"> <br>
+        <h2 class="introducing">Introducing the most expensive YouPhone 13!</h2> <br>
+        <div class="product-image">
+            <img class="phone" src="https://cdn.pixabay.com/photo/2021/01/25/17/08/iphone-5948956__480.jpg" alt="Double Apple 13">
+
+            <p class="details"><b id="pricing"> Only $1500 </b><br> <br> Get the most expensive UPhone! We know you can't afford it, that's why we have kidney payment option also available.
+                <br> <br>
+                <h3 id="features">Features</h3> <br>
+                <ul>
+                    <li>Hollywood Quality Camera.</li>
+                    <li>Same Design. But the fastest processor.</li>
+                    <li>5G Support</li>
+                    <li>The fastest charger, we haven't tested it but if we are telling then you have to agree.</li>
+                    <li>What are you waiting for, buy and share it with your friends so that we will get free promotion.</li>
+                </ul> <br> <br>
+                <h4 class="introducing">Watch this Teaser!</h4>
+                <br> <iframe width="100%" height="315" src="https://www.youtube.com/embed/i6AqWJE89rc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </p>
+        </div> <br> <br> <br><br> <br> <br><br> <br> <br><br> <br> <br>
+        <div id="tutorial">
+            <h3>How it works</h3>
+            <br>
+            <p>Don't worry, we are expensive but we also provide industry level quality (Our users think this, but everyone knows we provide far more than quality) <br> Go to this website to learn how to use UPhone <a href="https://www.wikihow.com/Use-an-iPhone">Uphone tutorial</a>
+
+
+                <h3>Our other products:</h3> <br>
+                <p> We have a vast variety of products, and we have also decided to not just make Apple limited to phone so, we are launching our own <b>$500</b> Double Apple Cloth to clean your UPhone screen. Thanks for taking out your time and coming to
+                    this website, We Wish your left one kidney a good day!
+                </p>
+            </p>
+        </div>
+
+        <br> <br>
+        <footer>
+            <p> Made by <a href="https://www.mayankvikash.ml/" target="_blank" rel="noopener noreferrer">Mayank Vikash</a> for <a href="https://freecodecamp.org" target="_blank" rel="noopener noreferrer">FCC</a> </p>
+        </footer>
+
+    </div>
+
+
+
+</body>
+
+</html>
